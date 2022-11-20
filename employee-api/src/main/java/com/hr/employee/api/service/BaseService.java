@@ -38,6 +38,13 @@ public interface BaseService<T , ID > {
 	 * @param id
 	 * @return
 	 */
+	T getReferenceById(ID id);
+
+	/**
+	 *
+	 * @param id
+	 * @return
+	 */
 	Optional<T> getById(ID id);
 	/**
 	 *

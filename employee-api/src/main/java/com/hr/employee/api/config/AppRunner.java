@@ -26,26 +26,23 @@ public class AppRunner implements CommandLineRunner {
         if(employeeService.findAll().isEmpty()){
             employeeService.insert(Employee
                     .builder()
-                            .firstName("Mohamed")
-                            .lastName("Omer")
-                            .hireDate(LocalDate.now())
-                            .salary(10000.0)
+                    .firstName("Mohamed")
+                    .lastName("Omer")
+                    .email("mohamed@mail.com")
                     .build());
 
             employeeService.insert(Employee
                     .builder()
                     .firstName("Ali")
                     .lastName("Ahmed")
-                    .hireDate(LocalDate.now())
-                    .salary(10000.0)
+                    .email("ali@mail.com")
                     .build());
 
             employeeService.insert(Employee
                     .builder()
                     .firstName("Huda")
                     .lastName("Ibrahim")
-                    .hireDate(LocalDate.now())
-                    .salary(10000.0)
+                    .email("huda@mail.com")
                     .build());
         }
     }

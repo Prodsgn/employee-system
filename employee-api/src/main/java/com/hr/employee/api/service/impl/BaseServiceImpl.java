@@ -63,6 +63,17 @@ public abstract class BaseServiceImpl<T extends BaseEntity<ID>, ID extends Seria
 		return baseRepository.findById(id).orElseThrow(() -> new RecordNotFoundException(msg));
 	}
 
+	/**
+	 *
+	 * @param id
+	 * @return
+	 */
+	@Override
+	public T getReferenceById(ID id) {
+		return baseRepository.getReferenceById(id);
+	}
+
+
 	@Override
 	public Optional<T> getById(ID id) {
 		// TODO Auto-generated method stub

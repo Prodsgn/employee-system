@@ -15,7 +15,5 @@ public class EmployeeDto {
 
     private String lastName;
 
-    private LocalDate hireDate;
-
-    private double salary;
+    private String email;
 }

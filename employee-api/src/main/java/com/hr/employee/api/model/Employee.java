@@ -19,7 +19,5 @@ public class Employee extends BaseEntity<Long>{
 
     private String lastName;
 
-    private LocalDate hireDate;
-
-    private double salary;
+    private String email;
 }
