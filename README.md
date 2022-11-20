@@ -10,17 +10,19 @@ This README would normally document whatever steps are necessary to get your app
 
 ### How do I get set up? ###
 
-* install maven , install redis, install mysql DB 
-* run mvn clean install to build project 
+* install maven, install mysql DB 
+* run `mvn clean install` to build project 
+* run employee APIs by `mvn spring-boot:run`
+* run employee UI by `mvn spring-boot:run`
 
 ### Tools ###
 
-* spring boot, spring data jpa, spring security and JWT token
-* spring actuator, lombok , mapstruct, mybatis, pagehelper for mybatis pagenation 
-* swagger, themeleaf for mail template, flyway for DB migration, redis for caching
-* jasper reports 
+* spring boot, spring web, spring data jpa
+* lombok , mapstruct 
+* swagger, themeleaf 
 
 ### learing ###
+* [Full Tutorial] (https://www.youtube.com/playlist?list=PLMkr7X9JBPp4OlZCl0dzk8nXVb3Qygmeo)
 * [mybatis course] (https://www.youtube.com/playlist?list=PLMkr7X9JBPp594l1cWrCuvVj-gwYtvOng)
 * [mapstruct course] (https://www.youtube.com/playlist?list=PLMkr7X9JBPp4fc02yWxKsbYdLyBeiO4wt)
 * [Designing Data Intensive Applications] (https://www.youtube.com/playlist?list=PLTRDUPO2OmIljJwE9XMYE_XEgEIWZDCuQ)
